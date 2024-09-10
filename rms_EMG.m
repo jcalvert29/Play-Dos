@@ -7,8 +7,8 @@ function      RMS_EMG = rms_EMG(EMGdata)
 % the EMG data. 
 
 % Parameters of RMS calculation
-windowlength = 40; 
-overlap=20;
+windowlength = 20; 
+overlap=10;
 zeropad = 1;
 delta = windowlength - overlap;
 % Define indices
